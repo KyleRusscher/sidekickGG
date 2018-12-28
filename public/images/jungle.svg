@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="93px" viewBox="0 0 86 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>jung</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0004 47.6132935 0.0004 47.6132935 93 0 93"></polygon>
+    </defs>
+    <g id="smol-copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-499.000000, -335.000000)">
+        <g id="choose-a-role" transform="translate(24.000000, 124.000000)">
+            <g id="jung" transform="translate(475.000000, 211.000000)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M15.2877,66.5654 C15.2877,66.5654 17.8357,42.0414 -0.0003,25.7974 C-0.0003,25.7974 24.2057,37.2634 29.3017,55.0994 C29.3017,55.0994 35.0347,29.6204 16.2437,0.0004 C16.2437,0.0004 61.4697,51.9144 43.3147,93.0004 C43.3147,93.0004 30.5757,74.8454 15.2877,66.5654" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M52.5514,54.7812 C52.5514,54.7812 49.0484,40.1302 46.1814,36.6272 C46.1814,36.6272 57.9664,11.4662 69.1134,0.0002 C69.1134,0.0002 55.0994,26.7542 56.3734,46.5002 C56.3734,46.5002 53.5074,50.9592 52.5514,54.7812" id="Fill-4" fill="#FFFFFF"></path>
+                <path d="M56.0548,78.9863 C56.0548,78.9863 57.3288,40.4483 85.9928,25.7983 C85.9928,25.7983 67.8388,43.6333 71.0238,65.6093 C71.0238,65.6093 58.2838,73.8903 56.0548,78.9863" id="Fill-6" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

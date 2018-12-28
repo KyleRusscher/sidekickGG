@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="93px" viewBox="0 0 93 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>mid</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.5412 0.542 65 0.542 65 65 0.5412 65"></polygon>
+    </defs>
+    <g id="smol-copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-670.000000, -336.000000)">
+        <g id="choose-a-role" transform="translate(24.000000, 124.000000)">
+            <g id="mid" transform="translate(646.000000, 212.000000)">
+                <g id="Group-6">
+                    <polygon id="Fill-1" fill="#4F4F60" points="48.0832 16.375 64.4582 0 0.0002 0 0.0002 64.458 16.3752 48.083 16.3752 16.375"></polygon>
+                    <g id="Group-5" transform="translate(28.000000, 28.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-4"></g>
+                        <polygon id="Fill-3" fill="#4F4F60" mask="url(#mask-2)" points="48.6252 16.917 48.6252 48.625 16.9162 48.625 0.5412 65 65.0002 65 65.0002 0.542"></polygon>
+                    </g>
+                </g>
+                <polygon id="Fill-7" fill="#FFFFFF" points="77.7213 0.0003 0.0003 77.7203 0.0003 93.0003 15.2793 93.0003 92.9993 15.2803 92.9993 0.0003"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

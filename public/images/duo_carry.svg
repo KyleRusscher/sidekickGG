@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="93px" viewBox="0 0 93 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>bot</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0004 85.3977 0.0004 85.3977 85.3984 0 85.3984"></polygon>
+    </defs>
+    <g id="smol-copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1027.000000, -336.000000)">
+        <g id="choose-a-role" transform="translate(24.000000, 124.000000)">
+            <g id="bot" transform="translate(1003.000000, 212.000000)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill="#4F4F60" mask="url(#mask-2)" points="16.3747 69.0234 16.3747 16.3754 69.0227 16.3754 85.3977 0.0004 -0.0003 0.0004 -0.0003 85.3984"></polygon>
+                </g>
+                <polygon id="Fill-4" fill="#FFFFFF" points="76.6251 23.9763 76.6251 76.6253 23.9761 76.6253 7.6011 93.0003 93.0001 93.0003 93.0001 7.6013"></polygon>
+                <polygon id="Fill-5" fill="#4F4F60" points="34 59 59 59 59 34 34 34"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

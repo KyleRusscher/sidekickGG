@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="93px" viewBox="0 0 93 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>supp</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.2113 0.8718 38.002 0.8718 38.002 34.0208 0.2113 34.0208"></polygon>
+    </defs>
+    <g id="smol-copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-848.000000, -336.000000)">
+        <g id="choose-a-role" transform="translate(24.000000, 124.000000)">
+            <g id="supp" transform="translate(824.000000, 212.000000)">
+                <polygon id="Fill-1" fill="#FFFFFF" points="46.5012 36.192 44.0562 32.837 34.3452 82.872 46.5012 92.83 58.6572 82.872 48.9462 32.837"></polygon>
+                <polygon id="Fill-2" fill="#FFFFFF" points="34.3444 0.0003 30.2724 6.8813 46.5014 25.8843 62.7304 6.8813 58.6584 0.0003"></polygon>
+                <g id="Group-8" transform="translate(0.000000, 18.829900)">
+                    <g id="Group-5" transform="translate(55.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-4"></g>
+                        <path d="M38.0023,0.8718 L11.1753,0.8718 L0.2113,11.5048 L7.4163,34.0208 L24.0193,27.4538 L13.6813,14.0068 C13.6813,14.0068 36.2093,15.3838 38.0023,0.8718" id="Fill-3" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M26.827,0.8718 L0,0.8718 C1.793,15.3838 24.321,14.0068 24.321,14.0068 L13.983,27.4538 L30.586,34.0208 L37.791,11.5048 L26.827,0.8718 Z" id="Fill-6" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
