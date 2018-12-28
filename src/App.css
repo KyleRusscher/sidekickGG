@@ -1,0 +1,805 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box !important;
+  color: white; 
+}
+
+body {
+  background-color: #0F1025;
+  background-image: url("./images/cartographer.png")
+}
+
+
+
+.iq80 {
+  z-index: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  position: absolute;
+  margin-top: 33px;
+  right: -151px;
+  background: linear-gradient(to right bottom, #2f3441 60%, #212531 50%);
+  color: #CD9363;
+  border: 2px solid #212531;
+  cursor: pointer;
+ 
+}
+.mobileOff {
+  position: relative;
+}
+
+.iq80 img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.active {
+  display: block
+}
+.notActive {
+  display: none
+}
+
+.mtCI {
+  justify-content: flex-end !important;
+}
+.option {
+  display: flex;
+  align-items: center;
+  height: 37px;
+  width: 296px;
+  border-top: 1px solid rgb(104, 104, 104);
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1230px;
+  margin-top: 20px;
+}
+
+
+.navCenter {
+  padding: 10px;
+  font-size: 30px;
+}
+.navChildren {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navImg {
+  border-radius: 100px;
+}
+
+.searchBar {
+  position: relative;
+  bottom: 15px;
+  width: 296px;
+  height: 35px;
+  padding: 5px;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  background-color: #222238;
+  border: 1px solid rgb(47, 48, 68);
+}
+
+.counterSearchBar {
+  width: 120px;
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  background-color: #2a2a41;
+  margin-left: auto;
+  border-radius: 3px;
+  margin-right: 10px;
+  border: 1px solid rgb(76, 77, 97);
+  right: 10px;
+  top: 5px;
+}
+.upper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.championTable {
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.flex {
+  display: flex;
+  
+}
+
+.roleBar {
+  display: flex;
+  height: 35px;
+  background-color: rgb(47, 48, 68);
+  cursor: pointer;
+  position: relative;
+  bottom: 15px;
+}
+
+.name {
+  position: relative;
+  top: 82px;
+  font-size: 29px;
+  color: #7C00B2;
+  margin-left: 4px;
+}
+
+.strokeme {
+    text-shadow:
+		-1px -1px 0 silver,
+		1px -1px 0 silver,
+		-1px 1px 0 silver,
+		1px 1px 0 silver; 
+}
+
+
+.roleIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+}
+
+.skName {
+  position: relative;
+  top: 305px;
+  text-align: center;
+  color: #4697F2;
+  font-size: 19px;
+}
+
+.skTier {
+  position: relative;
+  top: 319px;
+  left:25px;
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+.BPT {
+  position: relative;
+  top: 327px;
+  left:25px;
+  color: white;
+  font-size: 14px;
+}
+
+.AWRTC {
+  position: relative;
+  top: 311px;
+  left:25px;
+  color: white;
+  font-size: 14px;
+}
+
+
+.tableImg {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.notClicked {
+  transform: translateX(280px) translateY(-50px) scale(.8);
+  transition: 1s linear;
+  transition-timing-function: cubic-bezier(.19,1.32,.5,1);
+  overflow: hidden;
+}
+
+.clicked {
+  transform: translateX(10px);
+  max-height: 420px;
+  transition: 1s linear;
+  transition-timing-function: cubic-bezier(.19,1.32,.5,1);
+  overflow: hidden;
+}
+
+
+
+.select {
+  background-color:#7C00B2 ;
+  border-top: 1px solid #B100FF ;
+  border-bottom: 1px solid #B100FF ;
+  position: absolute;
+  top: 56px;
+}
+
+.selectedRole {
+  background-color:#7C00B2 ;
+  border-top: 1px solid #B100FF ;
+  border-bottom: 1px solid #B100FF ;
+
+}
+.selectedTableItem {
+  background-color:#36365a;
+}
+
+.selectedCounterTableItem {
+  background-color:#36365a;
+}
+
+.select.selectedTableItem {
+  background-color:#7C00B2 ;
+}
+
+
+.notClicked1 {
+  display: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:focus {
+  outline:0;
+}
+
+.sideKickTable {
+  position: relative;
+  width: 270px;
+  height: 420px;
+  overflow: hidden;
+}
+.fullTable {
+  background-color: #222238;
+  color: white;
+  position: relative;
+}
+
+.skImg {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.tableColumn-name {
+  width: 145px;
+}
+.tableColumn-winRate {
+  width: 100px;
+}
+.tableColumn-role {
+  width: 70px;
+}
+.tableColumn-playRate {
+  width: 100px;
+}
+.tableColumn-banRate {
+  width: 100px;
+}
+
+.tableSK {
+  width: 240px;
+}
+
+.tableScroll {
+  text-align: center;
+  cursor: pointer;
+  max-height: 465px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-top: 50px
+}
+
+.bestBanText {
+  color: white;
+  background: #f44336;
+  border-radius: 2px;
+  border: 1px solid black; 
+  padding: 2px;
+  font-size: 12px;
+  position: relative;
+  left:5px;
+  white-space: nowrap;
+
+}
+
+.hiddenText {
+  display: none !important;
+}
+
+/* scroll bar style*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px grey; 
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #D4AF37; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #573927; 
+}
+
+/* done with scroll bar ^^^ */
+
+.iconContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  bottom: 78px;
+}
+
+.sidekickOptions {
+  margin-top: 10px;
+  max-height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.iconBackground {
+  background-repeat: no-repeat, no-repeat !important;
+  background-size: 75px 75px, 65px 65px !important;
+  background-position: center, center !important;
+  height: 80px;
+  width: 75px;
+  cursor: pointer;
+}
+.relative {
+  position: relative;
+  height: 150px;
+  width: 330px;
+  overflow: hidden;
+  border-radius: 3px;
+  border: 1px solid silver;
+}
+.sRoleImg {
+  position: absolute;
+  top: 15px;
+  left: 8px;
+}
+.navBanner {
+  position: absolute;
+  top: -6px;
+  left: -7px;
+}
+.sChampImg {
+  position: absolute;
+  width: 344px;
+  height: 203px;
+  border-radius: 5px;
+
+}
+
+.cttText1 h2 {
+  font-size: 13px;
+  color: rgb(185, 185, 185);
+}
+
+
+.cttText h2 {
+  font-size: 13px;
+  text-align: center;
+  color: rgb(185, 185, 185);
+}
+
+.cardBackground {
+  position: absolute;
+  background-repeat: no-repeat, no-repeat !important;
+  background-size:  253px 415px, 231px 390px!important;
+  background-position: center, center !important;
+  height: 420px;
+  width: 255px;
+}
+
+.tableLeft {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+.roleImg {
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+
+.tableRows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.leftTable {
+  margin-right: 30px !important;
+}
+
+.search {
+  display: flex;
+}
+
+.activeRole {
+  box-shadow: 0px -2px 0px #19FF5B inset;
+}
+
+.activeReverseRole{
+  box-shadow: 0px 2px 0px #940000 inset;
+}
+
+.bottomTable {
+  display: flex;
+  flex-flow: row;
+}
+
+.counterTable {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 600px;
+  background-color: #222238;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+
+
+.counterTableTitle h1 {
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.counterTableHeader {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.tableColumn-blindPickTierValue {
+  width: 85px
+}
+
+.cttImage {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 10px; 
+    margin-right: 5px;
+}
+
+.cttText {
+  display: flex;
+  justify-content: flex-start; 
+  flex-direction: column;
+}
+
+.cttImageSK {
+  display: flex;
+  justify-content: flex-end; 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cttTextSK {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
+
+
+
+.cttText1 {
+  display: flex;
+  justify-content: flex-start; 
+  flex-direction: column;
+}
+
+
+.counterTableHeader {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border-bottom: 1px solid #3d3d55;
+}
+
+
+.counterNameTitle {
+  display: flex;
+  width: 200px;
+  padding-top: 20px;
+  padding-bottom:22px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.counterRankTitle {
+  display: flex;
+  width: 130px;
+  padding-top: 10px;
+  padding-bottom:10px; 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterName {
+  display: flex;
+  width: 190px;
+  height: 50px;
+  padding-left: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: visible;
+}
+
+.counterRank {
+  height: 50px;
+  display: flex;
+  width: 124px;
+  padding-right: 44px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.counterMatches {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  width: 95px;
+  justify-content: center;
+}
+
+.counterMatchesTitle {
+  display: flex;
+  width: 100px;
+  height: 63px;
+  padding-top: 10px;
+  padding-bottom:8px; 
+  justify-content: center;
+}
+
+
+.counterWR {
+  height: 50px;
+  display: flex;
+  width: 185px;
+  justify-content:center;
+  align-items: center;
+  padding-left: 15px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.counterWRTitle {
+  display: flex;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom:10px; 
+  justify-content: center;
+  text-align: center;
+}
+
+.counterData {
+  text-align: center;
+  max-height: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+
+
+.counterDataItem {
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: 1px solid #3d3d55;
+  align-items: center;
+  font-size: 18px;
+}
+
+
+.counterTableTitle {
+  display: flex;
+  flex-flow: row; 
+  align-items: center;
+  border: 1px solid #3d3d55;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+
+.activeReverseRole:hover{
+  box-shadow: 0px 2px 0px #940000 inset !important;
+}
+
+
+.counterRankTitle:hover{
+  box-shadow: 0px -2px 0px #19FF5B inset;
+}
+
+.counterNameTitle:hover {
+  box-shadow: 0px -2px 0px #19FF5B inset;
+}
+
+.counterMatchesTitle:hover {
+  box-shadow: 0px -2px 0px #19FF5B inset;
+}
+
+.counterWRTitle:hover {
+  box-shadow: 0px -2px 0px #19FF5B inset;
+}
+
+.select.tableRows {
+  height: 50px;
+}
+
+.select.tableColumn-name {
+  left: 70px;
+}
+.select.tableColumn-blindPickTierValue {
+  left: 215px;
+}
+.select.tableColumn-winRate {
+  left: 300px;
+}
+.select.tableColumn-playRate {
+  left: 400px;
+}
+.select.tableColumn-banRate {
+  left: 500px;
+}
+.select.tableSK{
+  left: 600px;
+}
+
+
+.headPadding {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tableColumn {
+  display: flex;
+  border-bottom: 1px solid #3d3d55;
+}
+
+.greySmall {
+  font-size: 12px;
+  color: grey;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.patchText {
+  color: #D4AF37;
+  margin-left: 345px;
+}
+
+
+/* mobile media tags */
+
+@media only screen and (max-width: 1240px) {
+  .tableSK {
+      display: none;
+  }
+  .championTable {
+    margin-right: 10px;
+  }
+  .counterRank {
+    display: none;
+  }
+  .counterRankTitle {
+    display: none;
+  }
+  .counterTable {
+    width: 480px;
+  }
+  .navbar {
+    flex-flow: column;
+  }
+  .navChildren {
+    position: relative;
+    right: 175px;
+  }
+  img.navLogo {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 960px) {
+  .allTable {
+    display: none;
+  }
+  .bottomTable {
+    position: relative;
+    flex-flow: column;
+    left: 13px;
+  }
+  .iconContainer {
+    bottom: 0px;
+    margin-top: 15px;
+    right: 7px;
+  }
+  .navChildren {
+    right: 0px;
+  } 
+
+}
+
+@media only screen and (max-width: 515px) {
+  .counterMatches {
+    display: none;
+  }
+  .searchBar {
+    width: 333px;
+  }
+  .option {
+    width: 333px;
+  }
+  .iq80 {
+    right: -170px;
+  }
+  img.navLogo {
+    margin-bottom: 0px;
+  }
+  .navChildren {
+    flex-flow: column;
+    
+  }
+  .navChildren :nth-child(1) {
+     order: 2;
+     top: 5px;
+    }
+  .navChildren :nth-child(2) { 
+    top: 0px
+  }
+
+  .counterMatchesTitle {
+    display: none;
+  }
+  .counterTable {
+    width: 330px;
+  }
+  .counterSearchBar {
+    display: none;
+  }
+  .relative {
+    left: 4px;
+  }
+}
+
+@media only screen and (min-width: 515px) {
+  .iq80 {
+    right: 212px;
+    margin: 0px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+.mobileOff {
+  display: none;
+}
+}
